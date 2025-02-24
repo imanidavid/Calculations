@@ -42,10 +42,10 @@ int main() {
     // Display student records
     printf("\nStudent Records:\n");
     printf("-----------------------------------------------\n");
-    printf("Name\t	Subject1\tSubject2\tSubject3\tGrade\n");
+    printf("Name\t\tSubject1\tSubject2\tSubject3\tGrade\n");
     printf("-----------------------------------------------\n");
     for (int i = 0; i < STUDENT_COUNT; i++) {
-        printf("%s\t%.2f\t%.2f\t%.2f\t%c\n", students[i].name, students[i].subject1, students[i].subject2, students[i].subject3, students[i].grade);
+        printf("%s\t\t%.2f\t\t%.2f\t\t%.2f\t\t%c\n", students[i].name, students[i].subject1, students[i].subject2, students[i].subject3, students[i].grade);
     }
     
     return 0;
