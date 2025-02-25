@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define STUDENT_COUNT 5
+#define STUDENT_COUNT 10
 
 // Structure to hold student data
 typedef struct {
